@@ -14,6 +14,18 @@ def Locator():
     if x == 0 and y == 0:
         player_loc = 'Spawn'
 
+    elif x > 0 and y > 0:
+        player_loc = 'Quadrant 1'
+
+    elif x > 0 and y < 0:
+        player_loc = 'Quadrant 2'
+
+    elif x < 0 and y > 0:
+        player_loc = 'Quadrant 3'
+
+    elif x < 0 and y < 0:
+        player_loc = 'Quadrant 4'
+
 
 
 Locator()
