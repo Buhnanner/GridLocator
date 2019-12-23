@@ -1,5 +1,5 @@
 """
-A simple program that can be used as a plugin for games to find your place on a virtual grid
+A simple script that can be used as a plugin for games to find your place on a virtual grid
 Kipland Melton
 """
 
